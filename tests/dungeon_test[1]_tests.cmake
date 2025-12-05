@@ -1,0 +1,5 @@
+add_test([=[DungeonEditorTest.CreateAndPlaceNPCs]=]  /home/mekigiwi/code/mai/OOP/lab6/tests/dungeon_test [==[--gtest_filter=DungeonEditorTest.CreateAndPlaceNPCs]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DungeonEditorTest.CreateAndPlaceNPCs]=]  PROPERTIES WORKING_DIRECTORY /home/mekigiwi/code/mai/OOP/lab6/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[DungeonEditorTest.BattleRules]=]  /home/mekigiwi/code/mai/OOP/lab6/tests/dungeon_test [==[--gtest_filter=DungeonEditorTest.BattleRules]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DungeonEditorTest.BattleRules]=]  PROPERTIES WORKING_DIRECTORY /home/mekigiwi/code/mai/OOP/lab6/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  dungeon_test_TESTS DungeonEditorTest.CreateAndPlaceNPCs DungeonEditorTest.BattleRules)

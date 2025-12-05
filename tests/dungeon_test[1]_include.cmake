@@ -1,0 +1,5 @@
+if(EXISTS "/home/mekigiwi/code/mai/OOP/lab6/tests/dungeon_test[1]_tests.cmake")
+  include("/home/mekigiwi/code/mai/OOP/lab6/tests/dungeon_test[1]_tests.cmake")
+else()
+  add_test(dungeon_test_NOT_BUILT dungeon_test_NOT_BUILT)
+endif()
